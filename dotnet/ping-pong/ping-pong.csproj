@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>ping_pong</RootNamespace>
+    <RestoreSources>$(RestoreSources);$(USERPROFILE)\.nuget.local;https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="lokomotes.station.types" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
