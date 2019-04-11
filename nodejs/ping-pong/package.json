@@ -1,0 +1,9 @@
+{
+  "name": "loko-ping-pong",
+  "version": "0.0.1",
+  "author": "lesomnus",
+  "dependencies": {},
+  "devDependencies": {
+    "@lokomotes/station-types": "0.0.1"
+  }
+}
