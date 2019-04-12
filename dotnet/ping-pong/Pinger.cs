@@ -40,7 +40,7 @@ namespace PingPong
 
         private async void handlePong(string msg, StationDesc src)
         {
-            Console.WriteLine($"{msg} from {src.Name}");
+            station.Log($"{msg} from {src.Name}");
             if (--cnt == 0)
             {
                 await station.Send(MsgType.Block, "").To(ponger);
